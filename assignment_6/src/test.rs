@@ -16,11 +16,11 @@ fn substring() {
 fn pattern() {
     use crate::task_1::search_pattern::_find_pattern;
     assert_eq!(
-        _find_pattern("Maruti".to_string(), "ruti".to_string()),
-        "2".to_string()
+        _find_pattern("Pankaj Chaudhry".to_string(), "Cha".to_string()),
+        "7".to_string()
     );
     assert_eq!(
-        _find_pattern("Knolway".to_string(), "Dell".to_string()),
+        _find_pattern("Hyundai".to_string(), "Verna".to_string()),
         "no match".to_string()
     );
 }
