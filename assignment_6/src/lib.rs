@@ -1,7 +1,10 @@
 #[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+mod test;
+mod task_1 {
+
+    pub mod substring;
+    pub mod search_pattern;
+}
+mod task_2 {
+    pub mod string_change;
 }
