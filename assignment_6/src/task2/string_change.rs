@@ -9,7 +9,7 @@
 /// #Return
 ///
 /// Returns the String to give the desired output....
-pub fn _desired_output(string_1: &str, string_2: &str, string_3: &str) -> String {
+ fn desired_output(string_1: &str, string_2: &str, string_3: &str) -> String {
     let mut position = 0;
     let mut iteration: usize = 0;
     let mut array: Vec<char> = Vec::new();
